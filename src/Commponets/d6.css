@@ -67,3 +67,16 @@ body {
   color: #2563eb;
   font-weight: bold;
 }
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #172554;
+  font-weight: bold;
+}
+input[type="text"] {
+  width: 25%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+}
