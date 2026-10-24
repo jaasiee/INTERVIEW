@@ -1,6 +1,6 @@
 
 import EmployeeCard from "./Commponets/d6";
-import "./App.css";
+import "./Commponets/d6.css";
 
 function App() {
   const employees = [
@@ -30,7 +30,7 @@ function App() {
   return (
     
     <div className="app">
-      <h1>Employee Directory</h1>
+      <h1>Employee directory</h1>
       <label htmlFor="search">Search Employees:</label>
       <input type="text" id="search" placeholder="Enter name, role, or department" />
 
@@ -42,6 +42,7 @@ function App() {
             role={employee.role}
             email={employee.email}
             department={employee.department}
+            
           />
         ))}
       </div>
